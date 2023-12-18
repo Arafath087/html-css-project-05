@@ -1,0 +1,342 @@
+.footer {
+    width: 100%;
+    background-color: #fff;
+}
+.footer_inner_area {
+    background-color: #E8FAF3;
+    margin: 20px;
+    padding-bottom: 150px;
+}
+.blog_header {
+    padding: 50px;
+    display: flex;
+    padding-top: 150px;
+    margin-top: 150px;
+}
+.blog_header h1 {
+    font-size: 58px;
+    width: 67%;
+}
+.blog_header h1 span {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.blog_header h1 span::before {
+    content: "";
+    position: absolute;
+    background: rgba(255,139,37,.4);
+    z-index: -1;
+    width: 98%;
+    height: 12px;
+    bottom: 10px;
+    left: 4px;
+}
+.btn {
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.btn button {
+    padding: 16px 37px;
+    font-size: 18px;
+    border: none;
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn button:hover {
+    background: #FF8C24;
+    transition: .5s;
+}
+.parent_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+}
+.child_contant {
+    height: 515px;
+    width: 402px;
+    background: #FFFFFF;
+    box-shadow: 0 30px 60px rgba(14,36,58,.06);
+    margin: auto;
+    border-radius: 10px;
+}
+.child_contant img {
+    width: 100%;
+    padding: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button1 {
+    margin-left: 26px;
+    margin-top: 10px;
+}
+.button1 a {
+    text-decoration: none;
+    font-size: 13px;
+    border: none;
+    padding: 7px 12px;
+    color: black;
+    background: #FFEAC9;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.button2 {
+    margin-left: 26px;
+    margin-top: 10px;
+}
+.button2 a {
+    text-decoration: none;
+    font-size: 13px;
+    border: none;
+    padding: 7px 14px;
+    color: black;
+    background: #CEEBF4;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.button3 {
+    margin-left: 26px;
+    margin-top: 10px;
+}
+.button3 a {
+    text-decoration: none;
+    font-size: 13px;
+    border: none;
+    padding: 7px 16px;
+    color: black;
+    background: #FFDFDF;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.text {
+    padding: 25px;
+}
+.text h4 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.text h4:hover {
+    color: #FF8C24;
+}
+.icon_image img {
+    width: 25%;
+    cursor: pointer;
+}
+.box_area {
+    height: 80px;
+    width: 88px;
+    background: #FF8C24;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-top: -63px;
+}
+.shap_img_area {
+    width: 85%;
+    text-align: right;
+}
+.shap_img_area img{
+    margin-top: -100px;
+}
+.row_area {
+    width: 100%;
+}
+.row_container {
+    padding: 100px 230px;
+}
+.row_container h1 {
+    text-align: center;
+    font-size: 62px;
+}
+.row_container h1 span {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.row_container h1 span::before {
+    content: "";
+    width: 98%;
+    height: 12px;
+    position: absolute;
+    background: rgba(255,139,37,.4);
+    bottom: 10px;
+    z-index: -1;
+    left: 4px;
+}
+.row_container p {
+    text-align: center;
+    font-size: 27px;
+    margin-top: 50px;
+}
+.row_container button {
+    padding: 20px 60px;
+    margin-top: 50px;
+    margin-left: 36%;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+.row_container button:hover {
+    background: #FF8C24;
+}
+.sign_in_area {
+    width: 100%;
+    padding: 65px 0px;
+}
+.sign_in_form {
+    height: 357px;
+    width: 90%;
+    background: #FFF1E4;
+    margin: auto;
+    border-radius: 50px;
+}
+.parent_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.child1_form {
+    padding-top: 100px;
+    padding-left: 80px;
+    width: 100%;
+}
+.child1_form p {
+    font-size: 24px;
+    color: #F96F60;
+}
+.child1_form h1 {
+    font-size: 52px;
+    margin-top: 18px;
+}
+.child2_form {
+    padding-top: 155px;
+    width: 100%;
+    margin-left: 15px;
+}
+.child2_form input {
+    padding: 25px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    width: 85%;
+}
+.child2_form button {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    background: #FF8C24;
+    font-size: 22px;
+    color: #fff;
+    margin-left: 52%;
+    margin-top: -86px;
+    cursor: pointer;
+}
+.child2_form button:hover {
+    background: #000000;
+}
+.child2_form p {
+    margin-top: 13px;
+    color: #ABA9A6;
+    font-size: 18px;
+}
+.child2_form p span {
+    color: black;
+}
+.parent_footer {
+    margin-top: 100px;
+    padding: 0px 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    margin-bottom: 50px;
+}
+.second_image {
+    margin-top: 70px;
+}
+.child2_footer h4 {
+    font-size: 25px;
+}
+.child2_footer li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #989595;
+}
+.child2_footer li:hover {
+    color: #FFB979;
+}
+
+
+
+
+.child3_footer h4 {
+    font-size: 25px;
+}
+.child3_footer li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #989595;
+}
+.child3_footer li:hover {
+    color: #FFB979;
+}
+.child4_footer {
+    margin-left: 25%;
+}
+.child4_footer h4 {
+    font-size: 25px;
+}
+.child4_footer h5 {
+    font-size: 20px;
+    color: #989595;
+    margin-top: 25px;
+    line-height: 35px;
+}
+.child4_footer p {
+    font-size: 20px;
+    color: #989595;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.child4_footer p:hover {
+    color: #FFB979;
+}
+.child4_footer h6 {
+    font-size: 22px;
+    color: #989595;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.child4_footer h6:hover {
+    color: #FFB979;
+}
+.contact_icon {
+    margin-top: 20px;
+}
+.contact_icon i {
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ABA9A6;
+}
+.contact_icon i:hover {
+    background: #000000;
+}
+.copyright {
+    padding: 30px 0px;
+    text-align: center;
+}
+.copyright p {
+    font-size: 20px;
+    cursor: pointer;
+}
